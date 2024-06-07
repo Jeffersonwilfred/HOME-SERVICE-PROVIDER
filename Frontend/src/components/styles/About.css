@@ -1,0 +1,76 @@
+/* styles/about.css */
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Set a background color for the body */
+}
+
+/* Background styles */
+.background-styles {
+  background-image: url("../../../public/assets/bg3.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+/* About content container */
+.about-content {
+  padding: 50px; /* Add padding for better spacing */
+  text-align: center;
+  color: white;
+}
+
+.about-content h2 {
+  font-size: 3rem; /* Increase heading size */
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px; /* Adjust margin for better spacing */
+}
+
+/* Footer styles */
+.bottom {
+  background-color: #333; /* Set background color for the footer */
+  color: white;
+  padding: 20px; /* Add padding for better spacing */
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center;
+}
+
+/* Contact section */
+.Contact-us,
+.Follow-us {
+  display: flex;
+  align-items: center;
+}
+
+.ad,
+.pn,
+.inst {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add margin between items */
+}
+
+.x {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon styles */
+.fa-icon {
+  margin-right: 10px; /* Add margin to icons */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions for hover effect */
+}
+
+.fa-icon:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  color: turquoise; /* Change color on hover */
+}

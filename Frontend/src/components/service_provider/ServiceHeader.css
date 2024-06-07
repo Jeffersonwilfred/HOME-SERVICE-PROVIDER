@@ -1,0 +1,42 @@
+/* CustomerHeader.css */
+
+.service-header {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  max-width: 50px; /* Set a maximum width for your logo */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Changed to space-between for even spacing */
+  align-items: center;
+  background-color: #3a3a3b;
+  color: #fff;
+  padding: 10px 20px; /* Increased padding for better spacing */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.logo img {
+  max-width: 50px; /* Set maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+}

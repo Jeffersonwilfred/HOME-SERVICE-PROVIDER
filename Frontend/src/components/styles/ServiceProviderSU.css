@@ -1,0 +1,81 @@
+/* styles/ServiceProviderSU.css */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Adjust to your desired height */
+    background-image: url('../../images/bg2.jpg'); /* Background image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5); /* Black transparent color */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* For older WebKit browsers */
+    box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37); /* Soft shadow */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle border */
+    color: white; /* Text color */
+    max-width: 500px; /* Adjust to your desired max width */
+    width: 100%;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  form input[type='file'],
+  form input[type='text'],
+  form input[type='email'],
+  form input[type='password'] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Input background color */
+    color: white; /* Input text color */
+  }
+  
+  form .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .error-message {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  

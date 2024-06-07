@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 85vh; /* Full viewport height */
+  background-image: url('../../images/bg1.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the background */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.up {
+  padding: 30px;
+  width: 550px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2); /* Translucent white background */
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  -webkit-backdrop-filter: blur(10px); /* For older WebKit browsers */
+  border: 1px solid black; /* Subtle border */
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between elements */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.35); /* Visible border for inputs */
+  border-radius: 5px;
+  background-color: transparent; /* Transparent background */
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+a {
+  color: #337ab7; /* Link color */
+  text-decoration: none;
+}
+.error-message {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  

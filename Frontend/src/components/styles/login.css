@@ -1,0 +1,81 @@
+/* styles/login.css */
+
+/* Set background for the entire page */
+.total {
+  background-image: url('../../images/bg1.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the background */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Glassmorphism container */
+.login-container {
+  padding: 30px;
+  width: 800px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2); /* Translucent white background */
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  -webkit-backdrop-filter: blur(10px); /* For older WebKit browsers */
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle border */
+    top: 200px;
+    right: 0px;
+    left: 600px;
+    /* Adjust left position as needed */
+    /* left: 580px; */
+  }
+  
+  #l {
+    color: black;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px; /* Space between elements */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Label color */
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%; /* Full width */
+    border: 1px solid rgba(0, 0, 0, 0.35); /* Visible border for inputs */
+    border-radius: 5px;
+    background-color: transparent; /* Transparent background */
+    color: black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white; /* Button text color */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #000;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: blueviolet; /* Link color */
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
